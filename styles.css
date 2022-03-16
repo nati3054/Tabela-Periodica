@@ -1,0 +1,355 @@
+body{
+    font-family: Roboto;
+    background-color: black;
+}
+main{
+    width: 1165px;
+    background-color: #f0f0f0;
+    margin: 50px auto;
+    gap: 5px;
+    display:grid;
+    grid-template-columns: repeat(18,60px) ;
+    grid-template-rows: repeat(10,60px) ;
+    background-color:black;
+    border-radius: 10px; 
+    color: white;
+    padding: 20px;
+    
+}
+main > div{
+    background-color: violet;
+    border-radius: 4px;
+}
+main > div > h2{
+    margin: 0;
+    text-align: center;
+}
+main > div > span{
+    font-size: 12px;
+    display:block;
+    padding: 3px;
+}
+main > div:nth-child(2){
+    grid-column-start: 18;
+}
+main > div:nth-child(5){
+    grid-column-start: 13;
+}
+main > div:nth-child(13){
+    grid-column-start: 13;
+}
+main > div:nth-child(57){
+    grid-column-start: 4;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(58){
+    grid-column-start: 5 ;
+    grid-row-start: 9;
+}
+main > div:nth-child(59){
+    grid-column-start: 6 ;
+    grid-row-start: 9;
+}
+main > div:nth-child(60){
+    grid-column-start: 7;
+    grid-row-start: 9;
+}
+main > div:nth-child(61){
+    grid-column-start: 8;
+    grid-row-start: 9;
+}
+main > div:nth-child(62){
+    grid-column-start: 9;
+    grid-row-start: 9;
+}
+main > div:nth-child(63){
+    grid-column-start:10;
+    grid-row-start: 9;
+}
+main > div:nth-child(64){
+    grid-column-start: 11;
+    grid-row-start: 9;
+}
+main > div:nth-child(65){
+    grid-column-start: 12;
+    grid-row-start: 9;
+}
+main > div:nth-child(66){
+    grid-column-start:13;
+    grid-row-start: 9;
+}
+main > div:nth-child(67){
+    grid-column-start: 14;
+    grid-row-start: 9;
+}
+main > div:nth-child(68){
+    grid-column-start: 15;
+    grid-row-start: 9;
+}
+main > div:nth-child(69){
+    grid-column-start: 16;
+    grid-row-start: 9;
+}
+main > div:nth-child(70){
+    grid-column-start: 17;
+    grid-row-start: 9;
+}
+main > div:nth-child(71){
+    grid-column-start:18;
+    grid-row-start: 9;
+}
+main > div:nth-child(89){
+    grid-column-start: 4;
+    grid-row-start: 10;
+}
+main > div:nth-child(90){
+    grid-column-start: 5 ;
+    grid-row-start: 10;
+}
+main > div:nth-child(91){
+    grid-column-start: 6;
+    grid-row-start: 10;
+}
+main > div:nth-child(92){
+    grid-column-start: 7;
+    grid-row-start: 10;
+}
+main > div:nth-child(93){
+    grid-column-start: 8;
+    grid-row-start: 10;
+}
+main > div:nth-child(94){
+    grid-column-start: 9;
+    grid-row-start: 10;
+}
+main > div:nth-child(95){
+    grid-column-start: 10;
+    grid-row-start: 10;
+}
+main > div:nth-child(96){
+    grid-column-start: 11;
+    grid-row-start: 10;
+}
+main > div:nth-child(97){
+    grid-column-start: 12;
+    grid-row-start: 10;
+}
+main > div:nth-child(98){
+    grid-column-start: 13;
+    grid-row-start: 10;
+}
+main > div:nth-child(99){
+    grid-column-start: 14;
+    grid-row-start: 10;
+}
+main > div:nth-child(100){
+    grid-column-start: 15;
+    grid-row-start: 10;
+}
+main > div:nth-child(101){
+    grid-column-start: 16;
+    grid-row-start: 10;
+}
+main > div:nth-child(102){
+    grid-column-start: 17;
+    grid-row-start: 10;
+}
+main > div:nth-child(103){
+    grid-column-start: 18;
+    grid-row-start: 10;
+}
+main > div:nth-child(72){
+    grid-column-start: 4;
+    
+}
+main > div:nth-child(74){
+    grid-column-start: 6;
+}
+main > div:nth-child(104){
+    grid-column-start: 4;
+}
+.nao-metal{
+    background-color: #2de2e6;
+}
+.nao-metal:hover{
+    background-color: rgb(12, 188, 194);
+}
+.gas-nobre{
+    background-color: #035EE8;
+}
+.gas-nobre:hover{
+    background-color: rgb(44, 23, 138);
+}
+.semimetal{
+    background-color: #9700cc;
+}
+.semimetal:hover{
+    background-color: purple;
+   
+}
+.metal-alcalino{
+    background-color:#F57199 ;
+}
+.metal-alcalino:hover{
+    background-color: rgb(230, 59, 87);
+}
+.metal-alcalino-terroso{
+    background-color: #faeb2c;
+}
+.metal-alcalino-terroso:hover{
+    background-color: yellow;
+}
+.metal-transicao{
+    background-color: #f52789;
+}
+.metal-transicao:hover{
+    background-color:rgb(241, 0, 60) ;
+}
+.halogenio{
+    background-color:#08FD0C;
+
+}
+.halogenio:hover{
+    background-color:green;
+}
+.outros-metais{
+    background-color:#F8A322;
+}
+.outros-metais:hover{
+    background-color: orangered;
+}
+.lantanideo{
+    background-color: #0e91e9;
+}
+.lantanideo:hover{
+    background-color: rgb(0, 0, 243);
+}
+.actinidio{
+    background-color: #b60de9ef;
+}
+.actinidio:hover{
+    background-color:rgb(206, 10, 173);
+}
+
+.nometabela{
+    color: white;
+    /* padding-left: 700px; */
+    /* align-items: center; */
+    width: 100%;   
+   
+}
+.nometabela > h1{
+    text-align: center;
+    font-size: 60px; 
+}
+
+header{
+    background-color:black;
+    /* align-items: center; */
+    margin: 0;
+    padding-left: auto;
+    padding-right: auto;
+    
+    
+}
+.nometabela:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+.actinidio:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.halogenio:hover{
+    
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.lantanideo:hover{
+    
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.metal-alcalino:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+ .outros-metais:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.metal-alcalino-terroso:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.semimetal:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.gas-nobre:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.nao-metal:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+      
+}
+.metal-transicao:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
